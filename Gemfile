@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 
-ruby '2.7.7'
+ruby '3.1.6'
 
+gem 'bootsnap', '>= 1.4.2', require: false
+gem 'puma', '~> 4.1'
 gem 'rails', '~> 6.0.5', '>= 6.0.5.1'
 gem 'sqlite3', '~> 1.6'
-gem 'puma', '~> 4.1'
-gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'byebug', platforms: %i[mri mingw x64_mingw]
 end
 
 group :development do
