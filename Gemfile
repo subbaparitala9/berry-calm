@@ -2,7 +2,9 @@ source 'https://rubygems.org'
 
 ruby '3.1.6'
 
+gem 'active_model_serializers'
 gem 'bootsnap', '>= 1.4.2', require: false
+gem 'net-smtp'
 gem 'puma', '~> 4.1'
 gem 'rails', '~> 6.0.5', '>= 6.0.5.1'
 gem 'sqlite3', '~> 1.6'
